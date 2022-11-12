@@ -1,0 +1,239 @@
+    * { 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    :root {
+        --verdeParrafosClaro: #10837C;
+        --titulosOscurosVerde: #006F68;
+        --rayasVerdesOscuras: #004E57;
+        --verde: #387036;
+        --blanco: #fff;
+    }
+    html {
+        height: 100%;
+        
+    }
+    body {
+        min-height: 100%;
+        background-color: #E9E9E9;
+        overflow-x: hidden;
+    }
+    h1 {
+        font-size: 28px;
+        text-transform: uppercase;
+        color: var(--titulosOscurosVerde);
+    }
+    img {
+        height: auto;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .contenedor {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    /*Header*/
+
+    .header {
+        width: 100%;
+        background-image: url("./img/banner.jpg" );
+        height: 6rem;
+    }
+    
+    .header nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        margin-right: 5rem;
+        align-items: center;
+    }
+    .header nav a {
+        text-decoration: none;
+        color: #fff;
+        padding-top: 47px ;
+    }
+    .header nav a:hover {
+        color: #E9E9E9;
+    }
+
+
+    /*Inicio*/
+
+    .inicio {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 2rem;
+    }
+    #texto-inicio {
+       margin: 0 auto;
+       border-bottom: 5px solid var(--rayasVerdesOscuras);
+       width: 90px;
+       margin-top: 30px;
+    }
+    .contenedor-inicio {
+        margin-top: 2rem;
+        padding-left: 5rem;
+    }
+
+    .textos-inicio h1 {
+        padding-bottom: 4px;
+        margin-left: 16px;
+    }
+    .textos-inicio p {
+        position: relative;
+        font-size: 24px;
+        color: var(--titulosOscurosVerde);
+        padding-top: 2rem;
+        font-weight: bold;
+        width: 24rem;
+        text-align: center;
+        margin: 0 40px;
+    }
+    .textos-inicio span {
+        display: block;
+        font-size: 24px;
+        color: var(--verdeParrafosClaro);
+        padding-top: 3px;
+        margin-left: 100px;
+        font-weight: bold;
+    }
+    .contenedor-inicio a img{
+        width: 36px;
+        height: 36px;
+        margin: 12px;
+        margin-left: 32px;  
+    }
+    .contenedor-inicio-2 {
+        position: relative;
+        margin-top: 2rem;
+        left: 150px;
+    }
+    #laptop {
+        position: absolute;
+        height: 18rem;
+        width: 18rem;
+        bottom: 10px;
+        right: 10rem;   
+    }
+    #cv {
+        height: 41px;
+        width: 45px;
+    }
+    #email {
+        height: 32px;
+        width: 42px;
+    }
+    #avatar {
+        position: relative;
+        height: 18rem;
+        width: 18rem;
+        right: 12px;
+        bottom: 24px;
+    }
+    #frontend {
+        margin-left: 6rem;
+    }
+
+    .linea {
+        border-top: 4px solid var(--rayasVerdesOscuras);
+        width: 16rem;
+        padding-right: 17rem ;
+        align-items: center;    
+    }
+    .linea-2 {
+        border-top: 4px solid var(--rayasVerdesOscuras);
+        width: 28rem;
+        padding-right: 16rem ;
+        align-items: center;    
+    }
+
+    /*Habilidades*/
+    .habilidades {
+        position: relative;
+        align-items: center;
+        margin-top: 5rem;
+    }
+    .habilidades h1 {
+        text-align: center;
+        margin-bottom: 24px;
+        border-bottom: 4px solid var(--rayasVerdesOscuras);
+        width: 250px;
+        margin: 0 auto;
+    }
+    .habilidades img  {
+        height: 6rem;
+        width: 6rem;
+        margin-top: 4rem;
+    }
+    .logo-html-css {
+        display: flex;
+        justify-content: center;
+    }
+    .logo-html-css img {
+        margin-left: 72px;
+        margin-right: 72px;    
+    }
+    .logos-skills {
+        display: grid;
+        grid-template-columns: repeat(3, 16rem);  
+        justify-content: center;
+        position: absolute;
+        right: 44px;
+        left: 222px;
+        padding-bottom: 4rem;
+    }
+    #react-logo {
+        width: 7rem;
+    }
+    
+     .circle-1 { 
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 7px solid rgb(255,116,0);
+        left: 678px; 
+        top: 990px;    
+    }
+  
+    .circle-2 { 
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 7px solid #1A81D7;
+        top: 990px;
+        left: 940px;
+    }
+    .circle-3 {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 7px solid #000;
+        top: 1190px;
+        right: 820px;
+    }
+    .circle-4 {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 7px solid rgb(100, 100, 100);
+        top: 1190px;
+        right: 1130px;
+    }
+    .circle-5 {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 7px solid rgb(9, 172, 212);
+        top: 1190px;
+        right: 500px;
+    }
