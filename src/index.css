@@ -167,13 +167,13 @@
         text-align: center;
         margin-bottom: 24px;
         border-bottom: 4px solid var(--rayasVerdesOscuras);
-        width: 250px;
+        width: 235px;
         margin: 0 auto;
     }
     .habilidades img  {
         height: 6rem;
         width: 6rem;
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
     .logo-html-css {
         display: flex;
@@ -203,7 +203,7 @@
         border-radius: 50%;
         border: 7px solid #FF7900;
         left: 588px; 
-        top: 85px;
+        top: 125px;
     }
   
     .circle-2 { 
@@ -212,7 +212,7 @@
         height: 180px;
         border-radius: 50%;
         border: 7px solid #1A81D7;
-        top: 90px;
+        top: 125px;
         left: 850px;
     }
     .circle-3 {
@@ -221,7 +221,7 @@
         height: 180px;
         border-radius: 50%;
         border: 7px solid #000;
-        top: 287px;
+        top: 372px;
         right: 732px;
     }
     .circle-4 {
@@ -230,7 +230,7 @@
         height: 180px;
         border-radius: 50%;
         border: 7px solid rgb(100, 100, 100);
-        top: 287px;
+        top: 372px;
         left: 400px;
     }
     .circle-5 {
@@ -239,7 +239,7 @@
         height: 180px;
         border-radius: 50%;
         border: 7px solid rgb(9, 172, 212);
-        top: 287px;
+        top: 372px;
         right: 410px;
     }
     
@@ -255,7 +255,7 @@
     }
     .proyecto {
         display: inline-block;
-        margin: 42px 24px;
+        margin: 64px 24px;
     }
     .proyecto h2 {
         border-bottom: 4px solid var(--rayasVerdesOscuras);
