@@ -191,14 +191,14 @@
         width: 7rem;
     }
     
-     .circle-1 { 
+    .circle-1 { 
         position: absolute;
         width: 180px;
         height: 180px;
         border-radius: 50%;
-        border: 7px solid rgb(255,116,0);
-        left: 678px; 
-        top: 990px;    
+        border: 7px solid #FF7900;
+        left: 588px; 
+        top: 85px;
     }
   
     .circle-2 { 
@@ -207,8 +207,8 @@
         height: 180px;
         border-radius: 50%;
         border: 7px solid #1A81D7;
-        top: 990px;
-        left: 940px;
+        top: 90px;
+        left: 850px;
     }
     .circle-3 {
         position: absolute;
@@ -216,8 +216,8 @@
         height: 180px;
         border-radius: 50%;
         border: 7px solid #000;
-        top: 1190px;
-        right: 820px;
+        top: 287px;
+        right: 732px;
     }
     .circle-4 {
         position: absolute;
@@ -225,8 +225,8 @@
         height: 180px;
         border-radius: 50%;
         border: 7px solid rgb(100, 100, 100);
-        top: 1190px;
-        right: 1130px;
+        top: 287px;
+        left: 400px;
     }
     .circle-5 {
         position: absolute;
@@ -234,6 +234,11 @@
         height: 180px;
         border-radius: 50%;
         border: 7px solid rgb(9, 172, 212);
-        top: 1190px;
-        right: 500px;
+        top: 287px;
+        right: 410px;
+    }
+    
+    .proyectos {
+        position: relative;
+        top: 350px;
     }

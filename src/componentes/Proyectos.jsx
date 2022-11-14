@@ -3,9 +3,8 @@ import React from 'react'
 function Proyectos () {
   return (
     <>
-    <h1>Proyectos</h1>
-    <div className="proyectos">
-      
+    <div className="proyectos contenedor">
+        <h1>Proyectos</h1>
     </div>
         </>
   )
