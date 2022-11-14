@@ -21,9 +21,22 @@
         overflow-x: hidden;
     }
     h1 {
-        font-size: 28px;
+        font-size: 32px;
         text-transform: uppercase;
         color: var(--titulosOscurosVerde);
+    }
+    h2 {
+        font-size: 22px;
+        text-transform: uppercase;
+        color: var(--titulosOscurosVerde);
+    }
+    p {
+        font-size: 18px;
+        color:var(--verdeParrafosClaro)
+    }
+    a{
+        text-decoration: none;
+        text-align: center;
     }
     img {
         height: auto;
@@ -71,8 +84,8 @@
     }
     #texto-inicio {
        margin: 0 auto;
-       border-bottom: 5px solid var(--rayasVerdesOscuras);
-       width: 90px;
+       border-bottom: 4px solid var(--rayasVerdesOscuras);
+       width: 95px;
        margin-top: 30px;
     }
     .contenedor-inicio {
@@ -80,15 +93,9 @@
         padding-left: 5rem;
     }
 
-    .textos-inicio h1 {
-        padding-bottom: 4px;
-        margin-left: 16px;
-    }
     .textos-inicio p {
         position: relative;
         font-size: 24px;
-        color: var(--titulosOscurosVerde);
-        padding-top: 2rem;
         font-weight: bold;
         width: 24rem;
         text-align: center;
@@ -147,9 +154,7 @@
     }
     .linea-2 {
         border-top: 4px solid var(--rayasVerdesOscuras);
-        width: 28rem;
-        padding-right: 16rem ;
-        align-items: center;    
+        width: 30rem;
     }
 
     /*Habilidades*/
@@ -240,5 +245,40 @@
     
     .proyectos {
         position: relative;
-        top: 350px;
+        margin-top: 18rem;
+        text-align: center;
     }
+    .proyectos h1 {
+        margin: 0 auto;
+        border-bottom: 4px solid var(--rayasVerdesOscuras);
+        width: 200px;
+    }
+    .proyecto {
+        display: inline-block;
+        margin: 42px 24px;
+    }
+    .proyecto h2 {
+        border-bottom: 4px solid var(--rayasVerdesOscuras);
+        width: 200px;
+        margin: 0 auto;
+    }
+    .proyecto p {
+        margin-top: 5px;
+    }
+    .proyecto-img {
+        height: 150px;  
+        width: 300px;
+        margin: 24px 24px;
+    }
+    .proyecto-img a {
+        margin: 0 auto;
+        color: var(--verdeParrafosClaro);
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .proyecto-img a img { 
+        height: 42px;
+        width: 42px;
+        margin-top: 12px;
+        margin-left: 48px;
+    } 
