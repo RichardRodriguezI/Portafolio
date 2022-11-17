@@ -5,6 +5,7 @@ import logoGit from '../img/git.png';
 import logoEmail from '../img/email.png';
 import avatar from '../img/avatar.png'
 import laptop from '../img/laptop.png'
+
 function Inicio() {
   return (
     <>

@@ -4,11 +4,14 @@ import Proyectos from './componentes/Proyectos'
 import Habilidades from './componentes/Habilidades';
 import Contacto from './componentes/Contacto';
 
+
 function App() {
  
   return (
      <>
-      <Header />
+      <Header 
+      id="inicio"
+      />
       <Inicio />
       <Habilidades />
       <Proyectos />
