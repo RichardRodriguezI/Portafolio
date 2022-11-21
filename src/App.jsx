@@ -9,9 +9,7 @@ function App() {
  
   return (
      <>
-      <Header 
-      id="inicio"
-      />
+      <Header />
       <Inicio />
       <Habilidades />
       <Proyectos />

@@ -57,18 +57,20 @@
         background-image: url("./img/banner.jpg" );
         height: 6rem;
     }
-    
-    .header nav {
+    .header ul{
         display: flex;
         justify-content: flex-end;
+        flex-direction: row;
         gap: 1rem;
-        margin-right: 5rem;
-        align-items: center;
+        list-style: none;
     }
-    .header nav a {
+    .header li {
         text-decoration: none;
-        color: #fff;
-        padding-top: 47px ;
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+    .header a {
+        color: #fff;;
     }
     .header nav a:hover {
         color: #E9E9E9;

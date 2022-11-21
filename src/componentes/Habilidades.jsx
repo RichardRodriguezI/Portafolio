@@ -4,6 +4,7 @@ import react from '../img/react.png';
 import js from '../img/js.png';
 import tailwind from '../img/tailwind.png';
 
+
 function Habilidades() {
   return (
      <>

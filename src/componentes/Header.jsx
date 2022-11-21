@@ -1,5 +1,3 @@
-import imagen from '../img/banner.jpg'
-import { Link, Router } from 'react-router-dom'
 
 
 const Header = () => {
@@ -7,13 +5,20 @@ const Header = () => {
          <>
 
          <div className="contenedor header">
-          
-          <nav>
-            <a href='#inicio'>Inicio</a> 
-            <a href='#'>Habilidades</a> 
+            <ul>
+                <li>
+                <a href="#">Inicio</a> 
+                </li>
+                <li>
+                <a href="#">Habilidades</a>
+                </li>
+            <li>
             <a href='#'>Proyectos</a> 
-            <a href='#'>Contacto</a> 
-        </nav>      
+            </li>
+            <li>
+            <a href='#'>Contacto</a>  
+            </li>
+            </ul>  
         </div>  
         
          </>
