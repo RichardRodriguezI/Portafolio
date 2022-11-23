@@ -6,7 +6,7 @@ import git from '../img/git.png'
 function Proyectos () {
   return (
     <>
-      <div className="proyectos contenedor">
+      <div className="proyectos contenedor" id='proyectos'>
                 <h1>Proyectos</h1>  
             <div className="proyecto"> 
                 <a href="https://control-de-gastos-reactjs.netlify.app"><h2>Control Gastos</h2></a>

@@ -1,4 +1,4 @@
-    * { 
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -13,7 +13,7 @@
     }
     html {
         height: 100%;
-        
+
     }
     body {
         min-height: 100%;
@@ -23,6 +23,7 @@
     h1 {
         font-size: 32px;
         text-transform: uppercase;
+        font-weight: bold;
         color: var(--titulosOscurosVerde);
     }
     h2 {
@@ -81,53 +82,56 @@
 
     .inicio {
         display: grid;
+        position: relative;
         grid-template-columns: repeat(2, 1fr);
-        padding-top: 2rem;
+        margin-top: 6rem;
+        text-align: center;
     }
     #texto-inicio {
        margin: 0 auto;
        border-bottom: 4px solid var(--rayasVerdesOscuras);
        width: 95px;
-       margin-top: 30px;
+       text-align: center;
     }
-    .contenedor-inicio {
+    /* .contenedor-inicio {
         margin-top: 2rem;
         padding-left: 5rem;
-    }
-
-    .textos-inicio p {
-        position: relative;
-        font-size: 24px;
+    } */
+    .textos-inicio h1 {
+        font-size: 28px;
         font-weight: bold;
-        width: 24rem;
+    }
+    .textos-inicio p {
+        font-size: 21px;
+        font-weight: bold;
+        width: 24rem;   
         text-align: center;
-        margin: 0 40px;
+        margin: 0 auto ;
     }
     .textos-inicio span {
         display: block;
-        font-size: 24px;
+        font-size: 21px;
         color: var(--verdeParrafosClaro);
-        padding-top: 3px;
-        margin-left: 100px;
         font-weight: bold;
+        text-align: center;
     }
-    .contenedor-inicio a img{
+    /* .contenedor-inicio a img{
         width: 36px;
         height: 36px;
         margin: 12px;
-        margin-left: 32px;  
-    }
-    .contenedor-inicio-2 {
+        margin-left: 32px;
+    } */
+    /* .contenedor-inicio-2 {
         position: relative;
         margin-top: 2rem;
         left: 150px;
-    }
+    } */
     #laptop {
         position: absolute;
         height: 18rem;
         width: 18rem;
         bottom: 10px;
-        right: 10rem;   
+        right: 10rem;
     }
     #cv {
         height: 36px;
@@ -156,17 +160,7 @@
         margin-left: 6rem;
     }
 
-    .linea {
-        border-top: 4px solid var(--rayasVerdesOscuras);
-        width: 16rem;
-        padding-right: 17rem ;
-        align-items: center;    
-    }
-    .linea-2 {
-        border-top: 4px solid var(--rayasVerdesOscuras);
-        width: 30rem;
-    }
-
+   
     /*Habilidades*/
     .habilidades {
       position: relative;
@@ -184,13 +178,13 @@
         width: 124px;
     }
 
-    .circle-1 { 
+    .circle-1 {
         position: absolute;
         width: 170px;
         height: 170px;
         border-radius: 50%;
         border: 7px solid #FF7900;
-        left: 588px; 
+        left: 588px;
         top: 90px;
     }
     #html {
@@ -198,7 +192,7 @@
         top: 22px;
         left: 15px;
     }
-    .circle-2 { 
+    .circle-2 {
         position: absolute;
         width: 175px;
         height: 170px;
@@ -212,7 +206,7 @@
         top: 20px;
         left: 18px;
     }
-  
+
     .circle-3 {
         position: absolute;
         width: 170px;
@@ -259,7 +253,7 @@
         top: 11px;
         left: 15px;
     }
-    
+
     .proyectos {
         position: relative;
         margin-top: 18rem;
@@ -283,7 +277,7 @@
         margin-top: 5px;
     }
     .proyecto-img {
-        height: 150px;  
+        height: 150px;
         width: 300px;
         margin: 24px 24px;
     }
@@ -293,12 +287,12 @@
         font-weight: bold;
         text-transform: uppercase;
     }
-    .proyecto-img a img { 
+    .proyecto-img a img {
         height: 42px;
         width: 42px;
         margin-top: 12px;
         margin-left: 48px;
-    } 
+    }
 
     .formulario {
         margin-top: 7rem;
@@ -332,7 +326,7 @@
     }
     .input:focus {
         border-color: var(--rayasVerdesOscuras);
-    }   
+    }
     button {
         background: var(--titulosOscurosVerde);
         color: #fff;
@@ -362,3 +356,26 @@
     .list a {
         padding: 17px;
     }
+    @media (max-width: 768px) {
+        #texto-inicio {
+
+        }
+        .inicio {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .inicio p {
+            margin-top: 3rem
+        }
+        #laptop {
+            position: absolute;
+            top: 180px;
+            left: 300px;
+        }
+        .habilidades {
+            position: relative;
+            margin-bottom: 27rem ;
+            margin-top: 20rem;
+          }
+        }

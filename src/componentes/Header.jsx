@@ -1,3 +1,4 @@
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
 const Header = () => {
@@ -7,16 +8,16 @@ const Header = () => {
          <div className="contenedor header">
             <ul>
                 <li>
-                <a href="#">Inicio</a> 
+                <Link to="#texto-inicio" smooth={true} spy={true} offset={50} duration={500}>Inicio</Link> 
                 </li>
                 <li>
-                <a href="#">Habilidades</a>
+                <Link to="#habilidades"smooth={true} spy={true} offset={50} duration={500} >Habilidades</Link>
                 </li>
             <li>
-            <a href='#'>Proyectos</a> 
+            <Link to="#proyectos"smooth={true} spy={true} offset={50} duration={500}>Proyectos</Link> 
             </li>
             <li>
-            <a href='#'>Contacto</a>  
+            <Link to="#contacto" smooth={true} spy={true} offset={50} duration={500} >Contacto</Link>  
             </li>
             </ul>  
         </div>  

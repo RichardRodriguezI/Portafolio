@@ -7,7 +7,7 @@ import logoEmail from '../img/email.png';
 function Contacto() {
   return (
    <>
-      <div className="formulario">
+      <div className="formulario" id='contacto'>
       <h1>Contacto</h1>
       <form action="">
         <label htmlFor="nombre">Nombre:</label>
