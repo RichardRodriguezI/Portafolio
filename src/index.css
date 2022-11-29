@@ -79,24 +79,20 @@
 
 
     /*Inicio*/
-
+    #texto-inicio {
+        margin: 0 auto;
+        border-bottom: 4px solid var(--rayasVerdesOscuras);
+        width: 100px;
+        padding-top: 2rem;
+     }
     .inicio {
         display: grid;
         position: relative;
         grid-template-columns: repeat(2, 1fr);
-        margin-top: 6rem;
+        margin-top: 4rem;
         text-align: center;
     }
-    #texto-inicio {
-       margin: 0 auto;
-       border-bottom: 4px solid var(--rayasVerdesOscuras);
-       width: 95px;
-       text-align: center;
-    }
-    /* .contenedor-inicio {
-        margin-top: 2rem;
-        padding-left: 5rem;
-    } */
+
     .textos-inicio h1 {
         font-size: 28px;
         font-weight: bold;
@@ -107,60 +103,54 @@
         width: 24rem;   
         text-align: center;
         margin: 0 auto ;
+        border-top: 4px solid var(--rayasVerdesOscuras);
     }
     .textos-inicio span {
         display: block;
         font-size: 21px;
         color: var(--verdeParrafosClaro);
         font-weight: bold;
-        text-align: center;
+        text-align: center; 
     }
-    /* .contenedor-inicio a img{
-        width: 36px;
-        height: 36px;
-        margin: 12px;
-        margin-left: 32px;
-    } */
-    /* .contenedor-inicio-2 {
-        position: relative;
-        margin-top: 2rem;
-        left: 150px;
-    } */
+    .textos-inicio a {
+        margin: 0 auto;
+        padding-right: 19px;
+    }
     #laptop {
         position: absolute;
         height: 18rem;
         width: 18rem;
-        bottom: 10px;
-        right: 10rem;
+        bottom: 2rem;
+        right: 0rem;
     }
     #cv {
-        height: 36px;
+        height: 35px;
         width: 30px;
+        margin-left: 1rem;
     }
     #email {
-        height: 30px;
-        width: 42px;
+        height: 28px;
+        width: 38px;
+        margin-left: 0.5rem ;
     }
     #linkedin {
         height: 32px;
         width: 32px;
+        margin-left: 0.5rem;
     }
     #git {
-        height: 36px;
-        width: 36px;
+        height: 34px;
+        width: 34px;
+        margin-left: 2px;
     }
     #avatar {
         position: relative;
         height: 18rem;
         width: 18rem;
-        right: 12px;
+        left: 7px;
         bottom: 24px;
     }
-    #frontend {
-        margin-left: 6rem;
-    }
 
-   
     /*Habilidades*/
     .habilidades {
       position: relative;
